@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+      max-height: 28rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+<div class= "container">
+  <div class= "row">
+    <div class= "column">
+      <img src="images/raiders.jpg" alt="Raiders of the Lost Ark">
+      <h3>Raiders of the Lost Ark</h3>
+      <p>
+        Harrison Ford plays an archaeologist vying with Nazi forces in 1936 to
+        recover the Ark of the Covenant, racing to stop a rival archaeologist
+        from guiding Nagit zis to the Ark and its power.
+      </p>
+    </div>
+    <div class="column">
+      <img src="images/temple.jpg" alt="Temple of Doom">
+      <h3>Temple of Doom</h3>
+      <p>
+        Harrison Ford reprises his role as the title character, asked by
+        desperate villagers in India to find a mystical stone and rescue their
+        children from a Thuggee cult practicing child slavery, black magic, and
+        human sacrifice in honor of the goddess Kali.
+      </p>
+    </div>
+    <div class="column">
+      <img src="images/crusade.png" alt="Last Crusade">
+        <h3>Last Crusade</h3>
+        <p>
+          Harrison Ford reprises his role as the title character, searching for
+          his father, a Holy Grail scholar played by Sean Connery, who has been
+          kidnapped by Nazis.
+        </p>
+    </div>
+  </div>
+</div>
+<!-- Complete the HTML here -->
+
+</body>
+</html>
