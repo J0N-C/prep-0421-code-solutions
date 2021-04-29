@@ -25,3 +25,8 @@ function multiplyAndDivideBy5(num1, num2) {
   return (num1 * num2) / 5;
 }
 console.log('multiplyAndDivideBy5 Exercise:', multiplyAndDivideBy5(35, 10));
+
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+console.log('subtractTwoNumbers Exercise:', subtractTwoNumbers(22, 7));
