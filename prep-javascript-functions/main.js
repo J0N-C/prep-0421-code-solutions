@@ -15,3 +15,8 @@ function getGreeting(name) {
   return '"Hello ' + name + '!"';
 }
 console.log('getGreeting Exercise:', getGreeting('World'));
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+console.log('addAndMultiplyBy5 Exercise:', addAndMultiplyBy5(10, 5));
