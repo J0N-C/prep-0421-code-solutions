@@ -10,3 +10,8 @@ function convertHourstoMinutes(hours) {
 }
 var twoHours = convertHourstoMinutes(2);
 console.log('convertHourstoMinutes Exercise:', twoHours);
+
+function getGreeting(name) {
+  return '"Hello ' + name + '!"';
+}
+console.log('getGreeting Exercise:', getGreeting('World'));
