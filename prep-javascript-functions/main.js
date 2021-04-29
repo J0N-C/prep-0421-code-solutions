@@ -30,3 +30,8 @@ function subtractTwoNumbers(num1, num2) {
   return num1 - num2;
 }
 console.log('subtractTwoNumbers Exercise:', subtractTwoNumbers(22, 7));
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+console.log('getCircleCircumference Exercise:', getCircleCircumference(5));
