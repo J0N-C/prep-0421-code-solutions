@@ -40,3 +40,8 @@ function getFullName(firstName, lastName) {
   return firstName + ' ' + lastName;
 }
 console.log('getFullName Exercise:', getFullName('Juan', 'Ramirez'));
+
+function cube(number) {
+  return Math.pow(number, 3);
+}
+console.log('cube Exercise:', cube(5));
